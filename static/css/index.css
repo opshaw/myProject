@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive Meta Tag */
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+/* Navigation Bar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cont{
+    color: #938c8c;
+   
+    margin-left: 20px;
+}
+.small{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+h1 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('/static/images/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    color:orangered;
+}
+
+.hero-section .btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+
+/* Features Section */
+.features-section {
+    padding: 60px 20px;
+}
+
+.feature-box {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About Us Section */
+.about-us {
+    padding: 60px 20px;
+}
+
+.about-us .mission-vision-box {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Meet Our Team Section */
+.meet-our-team {
+    padding: 60px 20px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-member {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33% - 20px);
+    max-width: calc(33% - 20px);
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Contact Us Icon */
+.contact-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.contact-icon .btn {
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+.contact-icon i {
+    font-size: 12px;
+}
+
+/* Modal Content */
+.modal-content {
+    padding: 20px;
+}
+
+.modal-title {
+    margin-bottom: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2em;
+    }
+
+    .hero-section p {
+        font-size: 1em;
+    }
+
+    .hero-section .btn {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+
+    .feature-box, .team-member {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 50px 20px;
+    }
+
+    .hero-section h1 {
+        font-size: 1.5em;
+    }
+
+    .hero-section p {
+        font-size: 0.9em;
+    }
+
+    .hero-section .btn {
+        font-size: 0.9em;
+        padding: 8px 12px;
+    }
+}
+
+#hey{
+    background-color: rgb(45, 45, 45);
+}
+#hello{
+    color: #f8f9fa;
+}
